@@ -1,0 +1,9 @@
+[theme] # You have to add this line
+
+primaryColor = '#F7C5CC' # yellow hover and select
+
+backgroundColor = '#FA6775' # purple background
+
+secondaryBackgroundColor = '#F52549' # Pink element background
+
+textColor="#330000"
