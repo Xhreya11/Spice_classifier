@@ -1,9 +1,9 @@
 [theme] # You have to add this line
 
-primaryColor = '#F7C5CC' # yellow hover and select
+primaryColor = '#31473A' # yellow hover and select
 
-backgroundColor = '#FA6775' # purple background
+backgroundColor = '#EDF4F2' # purple background
 
-secondaryBackgroundColor = '#F52549' # Pink element background
+secondaryBackgroundColor = '#6AB187' # Pink element background
 
-textColor="#330000"
+textColor="#31473A"
