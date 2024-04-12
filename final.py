@@ -26,7 +26,7 @@ st.set_page_config(
  )
 st.sidebar.markdown("## Navigate around the app")
 
-select_event = st.sidebar.selectbox('Menu',
+select_event = st.sidebar.selectbox('',
                                     ['HOME', 'PREDICT', 'ABOUT ME'])
 
 if select_event == 'HOME':
@@ -127,7 +127,7 @@ elif select_event == 'PREDICT':
         st.link_button("Know more", "https://en.wikipedia.org/wiki/Mustard_seed")
     
   except:
-    st.write("Sorry, I don't know that spice. Please try again with another image.")
+    st.warning("Sorry, I don't know that spice. Please try again with another image.")
     
  
 else:
