@@ -11,7 +11,6 @@ from streamlit_lottie import st_lottie
 import plotly.express as px  # For plotting
 
 
-
 st.set_page_config(
      page_title="Spice Classifier",
      page_icon="🌶️",
@@ -132,7 +131,7 @@ elif select_event == 'PREDICT':
 else:
     with st.expander("Info"):
      st.markdown("""
-         - I have been trained by fine-tuning a __InceptionV3__ convolutional neural network.
+         - I have been trained by fine-tuning a __XceptionV3__ convolutional neural network.
          - For each spice class, I have been provided around 1,000 images to learn from.
      """)
     #  st.image("images/confusion_matrix.png")
