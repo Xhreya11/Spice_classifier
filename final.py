@@ -93,7 +93,6 @@ def predict_image(image_path):
   predicted_class_label = class_labels[predicted_class]
   return predicted_class_label
 
-
 if uploaded_file is not None:
   st.image(uploaded_file)  
   try:

@@ -15,11 +15,6 @@ st.set_page_config(
      page_icon="🌶️",
      initial_sidebar_state="expanded",
      layout='wide',
-     menu_items={
-         'Get Help': 'https://github.com/IBronko/',
-         'Report a bug': "https://github.com/IBronko/fruit-image-classifier/issues",
-         'About': "# This is a personal project."
-     }
  )
 
 with st.sidebar:
