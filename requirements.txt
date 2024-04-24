@@ -6,3 +6,4 @@ plotly==5.20.0
 streamlit==1.31.1
 streamlit_lottie==0.0.5
 tensorflow
+streamlit_option_menu
