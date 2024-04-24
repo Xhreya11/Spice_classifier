@@ -17,24 +17,24 @@ st.set_page_config(
      layout='wide',
  )
 
-with st.sidebar:
-            selected = option_menu(
-                menu_title="Main Menu",  # required
-                options=["Home", "Predict", "About Me"],  # required
-                icons=["house", "box-arrow-right", "book"],
-                menu_icon="cast",  # optional
-                default_index=0,  # optional
-            )
+# with st.sidebar:
+#             selected = option_menu(
+#                 menu_title="Main Menu",  # required
+#                 options=["Home", "Predict", "About Me"],  # required
+#                 icons=["house", "box-arrow-right", "book"],
+#                 menu_icon="cast",  # optional
+#                 default_index=0,  # optional
+#             )
 
 
-# selected = option_menu(
-#             menu_title=None,  # required
-#             options=["Home", "Predict", "About Me"],  # required
-#             icons=["house", "box-arrow-right", "book"],
-#             menu_icon="cast",  # optional
-#             default_index=0,  # optional
-#             orientation="horizontal",
-#         )
+selected = option_menu(
+            menu_title=None,  # required
+            options=["Home", "About Me"],  # required
+            icons=["house", "box-arrow-right", "book"],
+            menu_icon="cast",  # optional
+            default_index=0,  # optional
+            orientation="horizontal",
+        )
 
 
 if selected == "Home":
@@ -53,13 +53,7 @@ if selected == "Home":
          quality="medium", # medium ; high,
          key=None,
         )
-        st.subheader("Hmmmmmm, I'm ready to predict your spices, visit predict page...")
-
-
-if selected == "Predict":
-
-
-    st.subheader("Upload an image...")
+    st.subheader("I'm ready to predict your spices, Upload an image...")
     uploaded_file = st.file_uploader("", type="jpg")
 
 
