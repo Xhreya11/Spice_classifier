@@ -54,7 +54,7 @@ if selected == "Home":
          key=None,
         )
     st.subheader("I'm ready to predict your spices, Upload an image...")
-    uploaded_file = st.file_uploader("", type="jpg")
+    uploaded_file = st.file_uploader("", type=["jpg", "png"])
 
 
     incep_model = load_model("my_custom_inceptionv3.h5")
