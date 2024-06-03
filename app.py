@@ -62,6 +62,7 @@ if selected == "Home":
     def predict_image(image_path):
         img = Image.open(image_path) 
   # Preprocess the image
+        img = img.resize((200, 200))
         img_array = img_to_array(img)
         img_array = np.expand_dims(img_array, axis=0)
         img_array = img_array / 255.0
