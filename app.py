@@ -57,7 +57,7 @@ if selected == "Home":
     uploaded_file = st.file_uploader("", type=["jpg", "png"])
 
 
-    incep_model = load_model("my_custom_inceptionv3.h5")
+    incep_model = load_model("model.h5")
     class_labels = ["Bayleaf", "Black Cardamom","Black pepper","Chili","Clove", "Coriander", "Cumin", "Fenugreek Seeds", "Ginger", "Green Cardamom", "Mustard seeds"]
     def predict_image(image_path):
         img = Image.open(image_path) 
